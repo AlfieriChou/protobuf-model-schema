@@ -11,6 +11,10 @@ function convert (dirpath) {
   const filenames = dir(dirpath)
   for (let i = 0; i < filenames.length; ++i) {
     let filename = filenames[i]
+    let suffixs = filename.split('.')
+    if (suffixs.pop() !== 'proto') {
+      continue
+    }
     let filenameArray = filename.split('/')
     let popFileNameArr = filenameArray.pop()
     let filePath = path.join(dirpath + '/' + popFileNameArr)
