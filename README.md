@@ -1,4 +1,4 @@
-[![Standard - JavaScript Style Guide]( https://cdn.rawgit.com/standard/standard/master/badge.svg )]( https://github.com/standard/standard )
+[![Standard - JavaScript Style Guide]( https://cdn.jsdelivr.net/gh/standard/standard@master/badge.svg )]( https://github.com/standard/standard )
 
 # protobuf-model-schema
 Convert protobuf models to JsonSchema models.
